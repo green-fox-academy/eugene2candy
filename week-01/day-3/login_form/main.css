@@ -10,3 +10,26 @@ form {
     margin-top: 100px;
     padding: 30px;
 }
+
+input {
+    width: 90%;
+    height: 35px;
+}
+
+label {
+    font-size: smaller;
+}
+
+input#input-button {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    width: 30%;
+}
+
+div#hyperl {
+    text-align: right;
+    margin-right: 10%;
+}
