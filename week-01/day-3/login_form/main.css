@@ -30,11 +30,13 @@ input#input-button {
 }
 
 input#username-input:focus {
-    box-shadow: 0 0 3pt 2pt green;
+    outline: none;
+    border-color: #A1C29B;
 }
 
 input#password-input:focus {
-    box-shadow: 0 0 3pt 2pt green;
+    outline: none;
+    border-color: #A1C29B;
 }
 
 div#hyperl {
