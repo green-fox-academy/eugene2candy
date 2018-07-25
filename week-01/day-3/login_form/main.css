@@ -29,6 +29,14 @@ input#input-button {
     width: 30%;
 }
 
+input#username-input:focus {
+    box-shadow: 0 0 3pt 2pt green;
+}
+
+input#password-input:focus {
+    box-shadow: 0 0 3pt 2pt green;
+}
+
 div#hyperl {
     text-align: right;
     margin-right: 10%;
