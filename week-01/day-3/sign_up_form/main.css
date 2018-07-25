@@ -1,0 +1,49 @@
+body {
+    background-color: #DDDDDD;
+}
+
+form {
+    background-color: white;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+input#content-input {
+    border: 0px;
+    border-bottom: 1px solid grey;
+}
+
+input#submit-button {
+    color: white;
+    background-color: #2C9E85;
+    border: none;
+    border-radius: 20px;
+}
+
+button {
+    width: 200px;
+}
+
+button.facebook {
+    background-color: #36538A;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+button.twitter {
+    background-color: #5DAEE9;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+button.google {
+    background-color: #D94D44;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
