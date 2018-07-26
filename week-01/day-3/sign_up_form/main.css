@@ -1,55 +1,55 @@
 body {
-    background-color: #DDDDDD;
+  background-color: #ddd;
 }
 
 form {
-    background-color: white;
-    width: min-content;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    padding: 20px;
+  background-color: white;
+  width: min-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 20px;
 }
 
 input#content-input {
-    border: 0px;
-    border-bottom: 1px solid grey;
-    outline: 0;
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: 0;
 }
 
 input#content-input:focus {
-    border-color: #2C9E85;
-    border-width: 0 0 2px;
+  border-color: #2c9e85;
+  border-width: 0 0 2px;
 }
 
 input#submit-button {
-    color: white;
-    background-color: #2C9E85;
-    border: none;
-    border-radius: 20px;
+  color: white;
+  background-color: #2c9e85;
+  border: none;
+  border-radius: 20px;
 }
 
 button {
-    width: 200px;
+  width: 200px;
 }
 
 button.facebook {
-    background-color: #36538A;
-    border: none;
-    border-radius: 20px;
-    color: white;
+  background-color: #36538a;
+  border: none;
+  border-radius: 20px;
+  color: white;
 }
 
 button.twitter {
-    background-color: #5DAEE9;
-    border: none;
-    border-radius: 20px;
-    color: white;
+  background-color: #5daee9;
+  border: none;
+  border-radius: 20px;
+  color: white;
 }
 
 button.google {
-    background-color: #D94D44;
-    border: none;
-    border-radius: 20px;
-    color: white;
+  background-color: #d94d44;
+  border: none;
+  border-radius: 20px;
+  color: white;
 }

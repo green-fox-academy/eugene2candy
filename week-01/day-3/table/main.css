@@ -1,16 +1,15 @@
 th {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 th, th {
-    padding: 5px;
-
+  padding: 5px;
 }
 
 thead {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 tbody tr:nth-child(even) {
-    background-color: lightblue;
+  background-color: lightblue;
 }
