@@ -1,21 +1,21 @@
-div.item {
-  width: 100px;
-  height: 100px;
-}
-
-div.container {
+.container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
 }
 
 .green {
   background: green;
+  flex-grow: 1;
 }
 
 .yellow {
   background: yellow;
+  flex-grow: 1;
 }
 
 .purple {
   background: purple;
+  flex-grow: 2;
 }

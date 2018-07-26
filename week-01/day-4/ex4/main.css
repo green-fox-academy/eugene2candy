@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  background: yellow;
+  width: 400px;
+  height: 1500px;
+}
+
+.sidebar {
+  background: green;
+  width: 100px;
+  height: 1500px;
+}
+
+nav {
+  position: fixed;
+  width: 500px;
+  top: 0;
+  background: purple;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  background: cyan;
+  height: 30px;
+  width: 60px;
+  margin-left: 10px;
+}

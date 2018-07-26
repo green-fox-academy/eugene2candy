@@ -1,0 +1,61 @@
+div.item {
+  width: 100px;
+  height: 100px;
+}
+
+div.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.green {
+  background: green;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.purple {
+  background: purple;
+}
+
+div.container2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.green2 {
+  background: green;
+  flex-grow: 1;
+}
+
+.yellow2 {
+  background: yellow;
+  flex-grow: 2;
+}
+
+.purple2 {
+  background: purple;
+  flex-grow: 1;
+}
+
+div.container3 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.green3 {
+  background: green;
+  flex-grow: 1;
+}
+
+.yellow3 {
+  background: yellow;
+  flex-grow: 2;
+}
+
+.purple3 {
+  background: purple;
+  flex-grow: 1;
+}
