@@ -29,7 +29,6 @@ body {
 
 .centerc {
   background: red;
-  width: 50px;
   flex-grow: 3;
   margin-left: 10px;
   margin-right: 10px;
