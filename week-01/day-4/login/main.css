@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  background: grey;
+}
+
+.login-form {
+  width: 8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+input {
+  margin: 5px;
+}
+

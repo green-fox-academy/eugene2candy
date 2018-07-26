@@ -1,0 +1,13 @@
+div {
+    width: 100px;
+    height: 80px;
+    display: inline-block;
+}
+
+.first {
+    background: red;
+}
+
+.second {
+    background: blue;
+}

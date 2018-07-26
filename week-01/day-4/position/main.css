@@ -1,0 +1,22 @@
+div {
+    width: 100px; 
+    height: 60px;
+    display: block;
+    position: relative;
+}
+
+.first {
+    background: red;
+    top: 0;
+    left: 0;
+}
+
+.second {
+    background: blue;
+    position: fixed;
+    left: 50px;
+}
+
+.third {
+    background: green;
+}
