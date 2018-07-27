@@ -1,0 +1,38 @@
+body {
+  margin: 0 auto;
+}
+
+div.item {
+  height: 200px;
+}
+
+.green {
+  background: green;
+  flex-grow: 1;
+}
+
+.yellow {
+  background: yellow;
+  flex-grow: 3;
+}
+
+.purple {
+  background: purple;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 900px) {
+
+  div.container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  div.container {
+    display: flex;
+    flex-direction: row;
+  }
+}

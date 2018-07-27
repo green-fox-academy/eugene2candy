@@ -1,0 +1,67 @@
+body {
+  background-color: #313841;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+}
+
+button {
+  background-color: black;
+  border: none;
+  height: 50px;
+  width: 50px;
+  margin-bottom: 50px;
+}
+
+.far {
+  font-size: 3em;
+  color: white;
+}
+
+.fas {
+  font-size: 3em;
+  color: white;
+}
+
+.out1 {
+  background-color: red;
+  text-align: center;
+}
+
+.out2 {
+  background-color: #3fb97f;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+}
+
+span {
+  display: inline-block;
+  line-height: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  color: transparent;
+  width: 0;
+}
+
+button:hover + span {
+  transition: 2s;
+  width: 200px;
+  color: initial;
+}
+
+button:hover > .far {
+  color: red;
+}
+
+button:hover > .fas {
+  color: #3fb97f;
+}
