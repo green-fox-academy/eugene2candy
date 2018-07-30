@@ -1,40 +1,5 @@
 'use strict';
 
-// Prints a string to the terminal window.
-//console.log('Hello, World!');
-
-// Prints an integer to the terminal window.
-//console.log(42);
-
-// Prints a floating point number to the terminal window.
-//console.log(3.141592);
-
-//let favoriteNumber = 8;
-//console.log('My favorite number is: ' + favoriteNumber);
-
-// Swap the values of these variables
-//let a = 123;
-//let b = 526;
-
-//let tmp = a;
-//a = b;
-//b = tmp;
-
-//console.log(a);
-//console.log(b);
-
-//const massInKg = 81.2;
-//const heightInM = 1.78;
-
-// Print the Body mass index (BMI) based on these values
-//var BMI = massInKg / (heightInM^2);
-
-//console.log(BMI);
-
-//var info = {name: 'Eugene', age: 26};
-
-//console.log(info);
-
 let a = 3;
 // make it bigger by 10
 a += 10;
