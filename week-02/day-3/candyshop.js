@@ -13,7 +13,7 @@ function sweets(params) {
   newList = params;
   if (newList.indexOf(2) !== -1) {
     newList[newList.indexOf(2)] = 'Croissant';
-
+  }
   if (newList.indexOf(false) !== -1) {
     newList[newList.indexOf(false)] = 'Ice cream';
   }
