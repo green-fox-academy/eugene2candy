@@ -7,12 +7,18 @@ const ctx = canvas.getContext('2d');
 
 // Reproduce this:
 // [https://github.com/green-fox-academy/teaching-materials/blob/master/workshop/drawing/purple-steps-3d/r4.png]
-function drawBox(x, y, i) {
+function drawBox(x, y, i, j) {
   ctx.fillStyle = 'purple';
-  ctx.strokeRect(x + i * x, y + i * y, i * x, i * y);
-  ctx.fillRect(x + i * x, y + i * y, i * x, i * y);
+  ctx.strokeRect(j * x, j * y, i * x, i * y);
+  ctx.fillRect(j * x, j * y, i * x, i * y);
 }
 
-for (let i = 0; i < 19; i++) {
-  drawBox(10, 10, i);
+function triangular(value) {
+  const abs = Math.abs(value);
+  return ((abs / 2) * (abs + 1)) * (abs / value) || 0;
+}
+
+for (let i = 1; i < 8; i++) {
+  const j = triangular(i - 1);
+  drawBox(10, 10, i, j);
 }
