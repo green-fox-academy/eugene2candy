@@ -12,3 +12,15 @@ const kids = [{ pet_name: 'Wattled crane', owner: 'Bryant' },
   { pet_name: 'Carpet snake', owner: 'Veda' },
   { pet_name: 'Lesser mouse lemur', owner: 'Isidor' }];
 
+const pets = document.querySelector('#pets');
+
+for (let i = 0; i < kids.length; i++) {
+  const art = document.createElement('article');
+  const h3 = document.createElement('h3');
+  const p = document.createElement('p');
+  h3.textContent = kids[i].owner;
+  p.textContent = kids[i].pet_name;
+  art.appendChild(h3);
+  art.appendChild(p);
+  pets.appendChild(art);
+}
