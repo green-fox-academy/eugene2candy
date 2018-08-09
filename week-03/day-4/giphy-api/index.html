@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+  <form action="https://api.giphy.com/v1/gifs/search" method="get">
+    <div>
+        <label for="api_key">api</label>
+        <input name="api_key" id="api_key" value="FJj6XrUK5mkKMoTLwonjAH15zim7K3Bf">
+      </div>
+      <div>
+        <label for="q">Search</label>
+        <input name="q" id="q" value="">
+      </div>
+      <div>
+        <label for="limit">limit</label>
+        <input name="limit" id="limit" value="16">
+      </div>
+      <div>
+        <label for="offset">offset</label>
+        <input name="offset" id="offset" value="0">
+      </div>
+      <div>
+        <label for="rating">rating</label>
+        <input name="rating" id="rating" value="G">
+      </div>
+      <div>
+        <label for="lang">lang</label>
+        <input name="lang" id="lang" value="en">
+      </div>
+    <input type="submit" value="Search">
+  </form>
+</body>
+
+</html>
