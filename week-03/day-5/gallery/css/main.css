@@ -13,11 +13,13 @@ body {
 .container1 {
   display: flex;
   align-items: center;
+  box-shadow: 5px 5px 15px 5px #000;
 }
 
 .container2 {
   display: flex;
   align-items: center;
+  margin-top: 10px;
 }
 
 .big {
@@ -30,6 +32,7 @@ body {
   border-radius: 4px;
   padding: 2px;
   width: 40px;
+  box-shadow: 0 5px 5px 0 #000;
 }
 
 .small:hover {

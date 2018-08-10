@@ -34,6 +34,8 @@ const btnright = document.getElementById('b2');
 btnleft.addEventListener('click', last);
 btnright.addEventListener('click', next);
 
-document.getElementById('buttonclick').addEventListener('click', event => currentIMG(event.target.alt));
+document.getElementById('buttonclick').addEventListener('click', (event) => {
+  currentIMG(event.target.alt);
+});
 
 displayIMG(slideIndex);
