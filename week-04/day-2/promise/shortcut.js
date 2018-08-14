@@ -3,7 +3,9 @@ function resolved() {
 }
 
 function rejected() {
-  console.log(new Error('fail'));
+  console.log(new Error('failjeldgkjdlfd'));
 }
-
-Promise.resolve().then(resolved, rejected);
+Promise.reject()
+  .then(resolved())
+  .catch(rejected())
+  .then(resolved, rejected);
