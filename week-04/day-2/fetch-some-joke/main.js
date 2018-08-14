@@ -4,7 +4,9 @@ const container = document.querySelector('.container');
 
 function fetchAPI(param) {
   return fetch(param)
-    .then(response => response.json());
+    .then(response => response.json())
+    .then(j => j.value.joke)
+    .catch(() => new Error('Cannot fetch joke'));
 }
 
 function createDIV(params) {
@@ -13,17 +15,9 @@ function createDIV(params) {
   container.appendChild(div);
 }
 
-function promise(x) {
-  return new Promise((resolve, reject) => {
-    fetchAPI(x)
-      .then(result => resolve(result))
-      .catch(err => reject(err));
-  });
-}
-
 async function f1() {
-  const x = await promise(url);
-  createDIV(x.value.joke);
+  const x = await fetchAPI(url);
+  createDIV(x);
 }
 
 btn.addEventListener('click', () => {
