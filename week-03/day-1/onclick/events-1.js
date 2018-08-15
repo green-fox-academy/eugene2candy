@@ -1,13 +1,18 @@
-'use-strict';
+class Rectangle {
+	constructor(height, width) {
+		this.height = height;
+		this.width = width;
+	}
+	// Getter
+	get area() {
+		return this.calcArea();
+	}
+	// Method
+	calcArea() {
+		return this.height * this.width;
+	}
+}
 
-const div = document.querySelector('div');
-const button = document.querySelector('button');
-const newdiv = document.createElement('div');
-div.appendChild(newdiv);
-button.onclick = () => {
-  if (newdiv.className !== 'party') {
-    newdiv.className = 'party';
-  } else {
-    newdiv.classList.remove('party');
-  }
-};
+const square = new Rectangle(10, 10);
+
+console.log(square.area); // 100
