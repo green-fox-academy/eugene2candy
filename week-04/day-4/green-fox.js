@@ -70,10 +70,10 @@ class Sponsor extends Person {
 }
 
 class Cohort {
-  constructor(name, students = [], mentors = []) {
+  constructor(name) {
     this.name = name;
-    this.students = students;
-    this.mentors = mentors;
+    this.students = [];
+    this.mentors = [];
   }
 
   addStudent(s) {
