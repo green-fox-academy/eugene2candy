@@ -12,9 +12,9 @@ function ajax(method, endpoint, data, callback) {
     if (httpRequest.readyState === XMLHttpRequest.DONE && httpRequest.status === 200) {
       callback(JSON.parse(httpRequest.responseText));
     } if (httpRequest.readyState === XMLHttpRequest.DONE && httpRequest.status === 204) {
-      callback(document.querySelector('p').innerText = 'OK');
+      callback((document.querySelector('p').innerText = 'OK') && document.querySelector('p').setAttribute('style', 'color: green'));
     } if (httpRequest.readyState === XMLHttpRequest.DONE && httpRequest.status === 400) {
-      callback(document.querySelector('p').innerText = 'WRONG');
+      callback((document.querySelector('p').innerText = 'WRONG') && document.querySelector('p').setAttribute('style', 'color: red'));
     }
   };
 }
