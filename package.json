@@ -24,6 +24,7 @@
     "eslint-plugin-react": "^7.10.0"
   },
   "dependencies": {
+    "convert-csv-to-json": "0.0.13",
     "es6-promise": "^4.2.4"
   }
 }
